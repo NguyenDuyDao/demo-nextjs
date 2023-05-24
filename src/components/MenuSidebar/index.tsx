@@ -3,20 +3,23 @@
 import React from 'react';
 import Button from '../Button';
 import { useRouter } from 'next/navigation';
+import { routes } from '@/routes';
+import Link from 'next/link';
 
 const MenuSidebar = () => {
   const router = useRouter()
   const logoutHandler = () => {
+    event?.preventDefault()
     router.push('/');
   }
   return (
     <div className="menu-sidebar">
       <ul>
-        {/* {routeConfig.children.map((child, index) => (
+        {routes.map((child, index) => (
           <li key={index}>
-            <Link to={child.path}>{ child.id }</Link>
+            <Link href={child.path}>{ child.name }</Link>
           </li>
-        ))} */}
+        ))}
       </ul>
       <Button btnType="submit" text="Logout" onClickEvent={logoutHandler} />
     </div>

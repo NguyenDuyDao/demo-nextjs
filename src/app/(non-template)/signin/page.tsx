@@ -3,14 +3,12 @@
 import HeaderTitle from "@/components/HeaderTitle";
 import Button from "@/components/Button";
 import { useRouter } from 'next/navigation'
-// import { useEffect } from 'react'
 
 const SignIn = () => {
     const router = useRouter()
 
     const handleSubmit = () => {
-        // debugger
-        console.log(router)
+        event?.preventDefault();
         router.push('/dashboard')
     };
 
@@ -27,10 +25,7 @@ const SignIn = () => {
                     <input type="password" name="pass" />
                 </div>
                 <div className="button-container">
-                    {/* <Button btnType="submit" text="Login" onClickEvent={() => router.push('/abc')} /> */}
-                    <button type="submit">
-                        Dashboard
-                    </button>
+                    <Button btnType="submit" text="Login" />
                 </div>
             </form>
         </div>
