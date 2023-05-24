@@ -1,0 +1,37 @@
+.signin {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .signin-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        height: fit-content;
+        padding: 32px;
+        border-radius: 16px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        input[type="text"],
+        input[type="password"] {
+            height: 25px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

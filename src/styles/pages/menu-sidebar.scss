@@ -1,0 +1,31 @@
+.menu-sidebar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    ul {
+        margin: 0 16px 0 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        color: black;
+    }
+
+    a:hover {
+        background-color: aquamarine;
+    }
+
+    .button {
+        margin-left: auto;
+    }
+}
