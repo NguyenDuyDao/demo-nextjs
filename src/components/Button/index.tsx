@@ -1,5 +1,4 @@
 import React from 'react'
-import "./button.scss"
 import { button } from '@/types'
 
 export default function Button(props: button) {
