@@ -1,4 +1,4 @@
-// import AxiosClient from "@/client/AxiosClient";
+import AxiosClient from "@/src/client/AxiosClient";
 import NextAuth, { AuthOptions } from "next-auth";
 import KeycloakProvider from "next-auth/providers/keycloak";
 
@@ -44,9 +44,9 @@ const authOptions: AuthOptions = {
             return token;
         },
     },
-    // pages: {
-    //     signIn: "/api/auth/signin",
-    // },
+    pages: {
+        signIn: "/tenant",
+    },
 };
 // clientId: "process.env.KEYCLOAK_ID",
 // clientSecret: "process.env.KEYCLOAK_SECRET",
