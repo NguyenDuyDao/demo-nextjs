@@ -44,10 +44,9 @@ const authOptions: AuthOptions = {
             return token;
         },
     },
-    pages: {
-        // signIn: "/api/auth/signin",
-        signIn: process.env.KEYCLOAK_AUTH_URL
-    },
+    // pages: {
+    //     signIn: "/api/auth/signin",
+    // },
 };
 // clientId: "process.env.KEYCLOAK_ID",
 // clientSecret: "process.env.KEYCLOAK_SECRET",
