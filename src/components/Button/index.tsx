@@ -1,5 +1,5 @@
 import React from 'react'
-import { button } from '@/types'
+import { button } from '@/src/types'
 
 export default function Button(props: button) {
     return (

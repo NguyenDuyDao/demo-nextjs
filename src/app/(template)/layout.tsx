@@ -1,4 +1,4 @@
-import MenuSidebar from '@/components/MenuSidebar'
+import MenuSidebar from '@/src/components/MenuSidebar'
 import React from 'react'
 
 const Template = ({ children } : { children: React.ReactNode }) => {

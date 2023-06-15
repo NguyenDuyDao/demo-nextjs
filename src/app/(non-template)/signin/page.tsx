@@ -1,7 +1,7 @@
 "use client";
 
-import HeaderTitle from "@/components/HeaderTitle";
-import Button from "@/components/Button";
+import HeaderTitle from "@/src/components/HeaderTitle";
+import Button from "@/src/components/Button";
 import { useRouter } from 'next/navigation'
 
 const SignIn = () => {

@@ -3,7 +3,7 @@
 import React from 'react';
 import Button from '../Button';
 import { useRouter } from 'next/navigation';
-import { routes } from '@/routes';
+import { routes } from '@/src/routes';
 import Link from 'next/link';
 
 const MenuSidebar = () => {

@@ -1,4 +1,4 @@
-import '@/styles/app.scss'
+import '@/src/styles/app.scss'
 
 export const metadata = {
     title: 'Create Next App',

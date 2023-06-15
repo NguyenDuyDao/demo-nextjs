@@ -1,4 +1,4 @@
-import HeaderTitle from "@/components/HeaderTitle";
+import HeaderTitle from "@/src/components/HeaderTitle";
 
 const About = () => {
     console.log('Dashboard');

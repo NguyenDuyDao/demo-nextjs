@@ -1,5 +1,5 @@
 import React from 'react'
-import { headerTitle } from '@/types'
+import { headerTitle } from '@/src/types'
 
 export default function HeaderTitle(props: headerTitle) {
     return (
